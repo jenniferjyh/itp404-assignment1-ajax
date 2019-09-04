@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Assignment 1</title>
+  <link href='https://fonts.googleapis.com/css?family=Bungee Hairline' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  <link rel="stylesheet" href="loader.css">
+  <style>
+        body {
+            
+            margin:auto;
+            width: 50%;
+            text-align: center;
+        } 
+
+        h1 {
+            font-size: 48px;
+            font-family: 'Bungee Hairline'; 
+            color: navy;
+        }
+
+        #topheader{
+            margin-top:30%;
+
+        }
+        
+        input[type=text] { 
+         float: center;
+         padding: 10px;
+         border: 2px, solid, gray;
+         width: 550px;
+         height: 30px;
+         margin-top: 8px;
+         margin-right: 16px;
+         border-radius: 15px;
+         font-family: 'Montserrat';font-size: 16px;
+     
+         }
+
+         input[type=submit] {
+         float: center;
+         padding: 10px;
+         border: 5px, solid, gray;
+         margin-top: 8px;
+         margin-right: 16px;
+         border-radius: 15px;
+         font-family: 'Montserrat';font-size: 16px;
+         }
+
+         #startsearch:hover {
+             background-color:navy;
+             color:white;
+
+         }
+     
+        h3 {
+            font-family: 'Montserrat';font-size: 20px; font-weight:400;
+        }
+        h4 {
+            font-family: 'Montserrat';font-size: 16px; font-weight:800;
+            color:navy;
+        }
+
+        p{
+            font-family: 'Montserrat';font-size: 16px; font-weight: 200; font-style: italic;
+        }
+
+        #results {
+            margin: 5%;
+        }
+
+        a{
+            color:black;
+        }
+     </style>
+    
+</head>
+<body>
+
+<h1 id = "topheader">Search Subreddit</h1>
+
+<form id = "searchbar">
+<input type="text" id = "userinput" placeholder="Type Something...">
+<input type = "submit" id = "startsearch">
+</form>
+
+
+<div id="results">
+    
+</div>
+<!--<div>
+    <h3><a href = "#">title</a></h3>
+    <h4>score</h4>
+    <p>author</p>
+</div>-->
+    
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="main.js"></script>
+
+
+
+</body>
+</html>
